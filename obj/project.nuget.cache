@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "unCmi+QtI8IiqbdI5hnmHCk7p7PwBxO/wE1z1LdaZV4VcOX6BVrVyLBcFcbP+EyUq18UNQPI46wQXqnZh0WqRw==",
+  "success": true,
+  "projectFilePath": "D:\\CampusNET\\M07 Preparación y distribución de aplicaciones\\VirtualBox Machine Creator\\VirtualBox Machine Creator\\VirtualBox Machine Creator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft-windowsapicodepack-core\\1.1.4\\microsoft-windowsapicodepack-core.1.1.4.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\microsoft.visualbasic.10.3.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\simplewifi.netstandard\\2.0.0\\simplewifi.netstandard.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

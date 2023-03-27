@@ -1,0 +1,20 @@
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\bin\Debug\net6.0-windows\VirtualBox Machine Creator.exe
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\bin\Debug\net6.0-windows\VirtualBox Machine Creator.deps.json
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\bin\Debug\net6.0-windows\VirtualBox Machine Creator.runtimeconfig.json
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\bin\Debug\net6.0-windows\VirtualBox Machine Creator.dll
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\bin\Debug\net6.0-windows\VirtualBox Machine Creator.pdb
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\VirtualBox Machine Creator.csproj.AssemblyReference.cache
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\VirtualBox_Machine_Creator.Form1.resources
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\VirtualBox Machine Creator.csproj.GenerateResource.cache
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\VirtualBox Machine Creator.GeneratedMSBuildEditorConfig.editorconfig
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\VirtualBox Machine Creator.AssemblyInfoInputs.cache
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\VirtualBox Machine Creator.AssemblyInfo.cs
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\VirtualBox Machine Creator.csproj.CoreCompileInputs.cache
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\VirtualBox Machine Creator.dll
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\refint\VirtualBox Machine Creator.dll
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\VirtualBox Machine Creator.pdb
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\VirtualBox Machine Creator.genruntimeconfig.cache
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\ref\VirtualBox Machine Creator.dll
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\bin\Debug\net6.0-windows\SimpleWifi.dll
+D:\CampusNET\M07 Preparación y distribución de aplicaciones\VirtualBox Machine Creator\VirtualBox Machine Creator\obj\Debug\net6.0-windows\VirtualBox Machine Creator.csproj.CopyComplete
