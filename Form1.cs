@@ -181,6 +181,12 @@ namespace VirtualBox_Machine_Creator
         {
 
             string machineName = machine_name.Text;
+            if (machineName == "")
+            {
+                MessageBox.Show("Please enter a machine name");
+                return;
+            }
+
             string osType = "";
             string isoLocation = "D:\\CampusNET\\VDI\\"; // or your desired ISO location
             // Get the OS type
@@ -210,6 +216,20 @@ namespace VirtualBox_Machine_Creator
             string vdiSize = input_disk_size.Text;
 
             // Convert from GB to MB
+            // See if vdiSize is a number
+            if (int.TryParse(vdiSize, out int n))
+            {
+                if (n < 1)
+                {
+                    MessageBox.Show("VDI size must be at least 1GB");
+                    return;
+                }
+            }
+            else
+            {
+                MessageBox.Show("VDI size must be a number");
+                return;
+            }
             int vdiSizeMB = Convert.ToInt32(vdiSize) * 1024;
 
             string ram = ram_input.Text;
@@ -229,19 +249,20 @@ namespace VirtualBox_Machine_Creator
 
             string cpuCount = "2"; // processors_db.SelectedItem.ToString();
             string videoMemory = video_memory_input.Text; ; // or your desired video memory size in MB
-            if (int.TryParse(videoMemory, out int n))
+            if (int.TryParse(videoMemory, out int x))
             {
-                if (n < 0)
+                if (x < 0)
                 {
                     videoMemory = "0";
                 }
-                else if (n > 128)
+                else if (x > 128)
                 {
                     videoMemory = "128";
                 }
             }
             else
             {
+                MessageBox.Show("Video memory not valid, setting to 128MB");
                 videoMemory = "128";
             }
             string graphicsController = "VBoxVGA"; // or your desired graphics controller type
