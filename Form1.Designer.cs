@@ -52,6 +52,7 @@
             label1 = new Label();
             panel2 = new Panel();
             panel3 = new Panel();
+            label27 = new Label();
             existing_iso_btn = new Button();
             existing_iso = new TextBox();
             existing_iso_cb = new CheckBox();
@@ -92,7 +93,6 @@
             machine_name = new TextBox();
             label5 = new Label();
             label4 = new Label();
-            label27 = new Label();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             SuspendLayout();
@@ -397,6 +397,16 @@
             panel3.TabIndex = 1;
             panel3.Paint += panel3_Paint;
             // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Location = new Point(553, 184);
+            label27.Name = "label27";
+            label27.Size = new Size(475, 20);
+            label27.TabIndex = 64;
+            label27.Text = "if not selected code will autoselect (my local path it will break for u :p)";
+            label27.Click += label27_Click;
+            // 
             // existing_iso_btn
             // 
             existing_iso_btn.Location = new Point(858, 149);
@@ -494,7 +504,6 @@
             // 
             // processors_db
             // 
-            processors_db.Enabled = false;
             processors_db.FormattingEnabled = true;
             processors_db.Location = new Point(700, 340);
             processors_db.Name = "processors_db";
@@ -782,16 +791,6 @@
             label4.Size = new Size(422, 25);
             label4.TabIndex = 23;
             label4.Text = "Name, Operating System and VM Location";
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.Location = new Point(553, 184);
-            label27.Name = "label27";
-            label27.Size = new Size(475, 20);
-            label27.TabIndex = 64;
-            label27.Text = "if not selected code will autoselect (my local path it will break for u :p)";
-            label27.Click += label27_Click;
             // 
             // Form1
             // 

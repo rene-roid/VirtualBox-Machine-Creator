@@ -31,14 +31,24 @@ namespace VirtualBox_Machine_Creator
 
             // VDI
             vdi_format_dropbox.Items.Add("VDI");
-            vdi_format_dropbox.Items.Add("VMDK");
-            vdi_format_dropbox.Items.Add("VHD");
-            vdi_format_dropbox.Items.Add("HDD");
-            vdi_format_dropbox.SelectedIndex = 0;
+            //vdi_format_dropbox.Items.Add("VMDK");
+            //vdi_format_dropbox.Items.Add("VHD");
+            //vdi_format_dropbox.Items.Add("HDD");
+            //vdi_format_dropbox.SelectedIndex = 0;
 
             // Graphics
             graphics_db.Items.Add("VBoxVGA");
             graphics_db.SelectedIndex = 0;
+
+
+            // Cores
+            int cores = GetData.GetCores();
+            for (int i = 1; i <= cores; i++)
+            {
+                processors_db.Items.Add(i);
+            }
+            var num = cores / 4 - 1;
+            processors_db.SelectedIndex = num <= 0 ? 1 : num;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -247,7 +257,7 @@ namespace VirtualBox_Machine_Creator
                 return;
             }
 
-            string cpuCount = "2"; // processors_db.SelectedItem.ToString();
+            string cpuCount = processors_db.SelectedItem.ToString(); // processors_db.SelectedItem.ToString();
             string videoMemory = video_memory_input.Text; ; // or your desired video memory size in MB
             if (int.TryParse(videoMemory, out int x))
             {
@@ -267,6 +277,12 @@ namespace VirtualBox_Machine_Creator
             }
             string graphicsController = "VBoxVGA"; // or your desired graphics controller type
             string networkMode = network_db.SelectedItem.ToString().ToLower();
+
+            if (!create_vdi_cb.Checked)
+            {
+                MessageBox.Show("Check the create VDI checkbox to create a new VDI file");
+                return;
+            }
 
             // create the virtual machine
             ProcessStartInfo startInfo = new ProcessStartInfo();
